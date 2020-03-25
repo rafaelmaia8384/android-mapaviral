@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorBlack"
+        android:text="O alerta de proximidade é um aviso enviado para os usuários sempre que alguém, com sintomas moderados ou agressivos, se aproxima do seu local atual. Para o alerta ser recebido, você deve ter conexão com a internet e estar numa distância máxima de 50 metros do outro usuário."/>
+
+    <Switch
+        android:id="@+id/switchAlerta"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:switchPadding="10dp"
+        android:textColor="@color/colorGrayDark"
+        android:text="Receber alerta de proximidade"/>
+
+</LinearLayout>
