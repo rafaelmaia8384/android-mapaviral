@@ -604,7 +604,7 @@ public class MainActivity extends BaseActivity implements OnMapReadyCallback {
                                     public void onShow(DialogInterface dialog) {
 
                                         View content = ((MaterialDialog)dialog).getCustomView();
-                                        ((TextView)content.findViewById(R.id.textLicense)).setText(getResources().getString(R.string.license_appintro));
+                                        ((TextView)content.findViewById(R.id.textLicense)).setText(getResources().getString(R.string.license_apache));
                                     }
                                 })
                                 .customView(R.layout.layout_license, false)
@@ -637,7 +637,7 @@ public class MainActivity extends BaseActivity implements OnMapReadyCallback {
                                     public void onShow(DialogInterface dialog) {
 
                                         View content = ((MaterialDialog)dialog).getCustomView();
-                                        ((TextView)content.findViewById(R.id.textLicense)).setText(getResources().getString(R.string.license_androidstorage));
+                                        ((TextView)content.findViewById(R.id.textLicense)).setText(getResources().getString(R.string.license_apache));
                                     }
                                 })
                                 .customView(R.layout.layout_license, false)
@@ -670,7 +670,7 @@ public class MainActivity extends BaseActivity implements OnMapReadyCallback {
                                     public void onShow(DialogInterface dialog) {
 
                                         View content = ((MaterialDialog)dialog).getCustomView();
-                                        ((TextView)content.findViewById(R.id.textLicense)).setText(getResources().getString(R.string.license_materialdialog));
+                                        ((TextView)content.findViewById(R.id.textLicense)).setText(getResources().getString(R.string.license_apache));
                                     }
                                 })
                                 .customView(R.layout.layout_license, false)
@@ -737,6 +737,39 @@ public class MainActivity extends BaseActivity implements OnMapReadyCallback {
 
                                         View content = ((MaterialDialog)dialog).getCustomView();
                                         ((TextView)content.findViewById(R.id.textLicense)).setText(getResources().getString(R.string.license_mpandroidchart));
+                                    }
+                                })
+                                .customView(R.layout.layout_license, false)
+                                .positiveText("Ok")
+                                .cancelable(true)
+                                .show();
+                    }
+                });
+            }
+        });
+    }
+
+    public void buttonVerLicenca7(View view) {
+
+        dialogHelper.showProgressDelayed(500, new Runnable() {
+
+            @Override
+            public void run() {
+
+                runOnUiThread(new Runnable() {
+
+                    @Override
+                    public void run() {
+
+                        new MaterialDialog.Builder(MainActivity.this)
+                                .autoDismiss(true)
+                                .title("Licença")
+                                .showListener(new DialogInterface.OnShowListener() {
+                                    @Override
+                                    public void onShow(DialogInterface dialog) {
+
+                                        View content = ((MaterialDialog)dialog).getCustomView();
+                                        ((TextView)content.findViewById(R.id.textLicense)).setText(getResources().getString(R.string.license_apache));
                                     }
                                 })
                                 .customView(R.layout.layout_license, false)

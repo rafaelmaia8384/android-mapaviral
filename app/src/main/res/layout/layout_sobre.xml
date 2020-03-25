@@ -56,7 +56,7 @@
                 android:text="Créditos"/>
 
             <LinearLayout
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -224,7 +224,7 @@
                             android:textSize="8sp"
                             android:layout_marginLeft="5dp"
                             android:textColor="@color/colorBlack"
-                            android:text="com.github.AppIntro:AppIntro:5.1.0"/>
+                            android:text="https://github.com/AppIntro/AppIntro"/>
 
                     </LinearLayout>
 
@@ -271,7 +271,7 @@
                             android:textSize="8sp"
                             android:layout_marginLeft="5dp"
                             android:textColor="@color/colorBlack"
-                            android:text="com.snatik:storage:2.1.0"/>
+                            android:text="https://github.com/sromku/android-storage"/>
 
                     </LinearLayout>
 
@@ -318,7 +318,7 @@
                             android:textSize="8sp"
                             android:layout_marginLeft="5dp"
                             android:textColor="@color/colorBlack"
-                            android:text="com.afollestad.material-dialogs:core:0.9.6.0"/>
+                            android:text="https://github.com/afollestad/material-dialogs"/>
 
                     </LinearLayout>
 
@@ -365,7 +365,7 @@
                             android:textSize="8sp"
                             android:layout_marginLeft="5dp"
                             android:textColor="@color/colorBlack"
-                            android:text="com.squareup.retrofit2:retrofit:2.3.0"/>
+                            android:text="https://square.github.io/retrofit/"/>
 
                     </LinearLayout>
 
@@ -412,20 +412,18 @@
                             android:textSize="8sp"
                             android:layout_marginLeft="5dp"
                             android:textColor="@color/colorBlack"
-                            android:text="com.github.mumayank:AirLocation:1.3"/>
+                            android:text="https://github.com/mumayank/AirLocation"/>
 
                     </LinearLayout>
 
                     <TextView
-                        android:visibility="invisible"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="12dp"
                         android:textSize="8sp"
                         android:clickable="true"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:text="Ver licença"
-                        android:onClick="buttonVerLicenca"
+                        android:textColor="@color/colorGray"
+                        android:text="Indefinido"
                         android:foreground="?android:attr/selectableItemBackground"/>
 
                 </LinearLayout>
@@ -460,7 +458,7 @@
                             android:textSize="8sp"
                             android:layout_marginLeft="5dp"
                             android:textColor="@color/colorBlack"
-                            android:text="com.github.PhilJay:MPAndroidChart"/>
+                            android:text="https://github.com/PhilJay/MPAndroidChart"/>
 
                     </LinearLayout>
 
@@ -473,6 +471,53 @@
                         android:textColor="@color/colorPrimaryDark"
                         android:text="Ver licença"
                         android:onClick="buttonVerLicenca6"
+                        android:foreground="?android:attr/selectableItemBackground"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:background="@color/colorGray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="8sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorBlack"
+                        android:text="FastCSV"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="8sp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/colorBlack"
+                            android:text="https://github.com/osiegmar/FastCSV"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:textSize="8sp"
+                        android:clickable="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Ver licença"
+                        android:onClick="buttonVerLicenca7"
                         android:foreground="?android:attr/selectableItemBackground"/>
 
                 </LinearLayout>
